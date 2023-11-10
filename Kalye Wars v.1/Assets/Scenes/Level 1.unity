@@ -561,6 +561,7 @@ GameObject:
   - component: {fileID: 1355292616}
   - component: {fileID: 1355292619}
   - component: {fileID: 1355292620}
+  - component: {fileID: 1355292621}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -593,7 +594,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &1355292617
 SpriteRenderer:
@@ -635,7 +636,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1394827980477090343, guid: da33cfff13008564980f7cb5184f0e77, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -730,6 +731,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1355292621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355292615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30b90af07b6f5ea4fb112d17a261cced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  animator: {fileID: 1355292620}
+  rb: {fileID: 1355292616}
 --- !u!1 &1494527973
 GameObject:
   m_ObjectHideFlags: 0
