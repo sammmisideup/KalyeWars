@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DODGE_2_0: 5219923972263131566
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
