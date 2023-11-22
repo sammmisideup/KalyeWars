@@ -6,6 +6,7 @@ public class PlayerAttack : MonoBehaviour
 {
     private int num;
     private int i;
+    private float timer;
     public Animator animator;
 
     // Start is called before the first frame update
@@ -17,8 +18,9 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad1))
+        if (Input.GetKeyDown(KeyCode.Keypad1) && (timer <= 0))
         {
+            timer = 1f;
             animator.SetTrigger("MiddlePunch");
             num++;
 
@@ -34,8 +36,10 @@ public class PlayerAttack : MonoBehaviour
             }
         }
         
-        if (Input.GetKeyDown(KeyCode.Keypad2))
+        
+        if (Input.GetKeyDown(KeyCode.Keypad2) && (timer <= 0))
         {
+            timer = 1f;
             animator.SetTrigger("LowKick");
             i++;
 
@@ -49,6 +53,10 @@ public class PlayerAttack : MonoBehaviour
             animator.SetTrigger("MiddleKick");
             i = 0;
             }
+        }
+        else
+        {
+            timer -= Time.deltaTime;
         }
 
     }

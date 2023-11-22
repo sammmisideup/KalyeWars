@@ -5,9 +5,6 @@ TextureImporter:
   - first:
       213: 476438649557771727
     second: JUMP_3_0
-  - first:
-      213: -3704320241941112169
-    second: JUMP_3_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -49,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -145,31 +142,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: JUMP_3_1
-      rect:
-        serializedVersion: 2
-        x: 770
-        y: 87
-        width: 474
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79a9fc4cd5c979cc0800000000000000
-      internalID: -3704320241941112169
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -178,7 +154,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       JUMP_3_0: 476438649557771727
-      JUMP_3_1: -3704320241941112169
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

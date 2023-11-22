@@ -128,7 +128,7 @@ TextureImporter:
         x: 473
         y: 87
         width: 1047
-        height: 1522
+        height: 2613
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      DODGE_5_0: 3594739551921998208
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

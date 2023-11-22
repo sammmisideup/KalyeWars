@@ -125,10 +125,10 @@ TextureImporter:
       name: DODGE_2_0
       rect:
         serializedVersion: 2
-        x: 653
+        x: 587
         y: 87
-        width: 764
-        height: 2204
+        width: 830
+        height: 2613
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      DODGE_2_0: 5219923972263131566
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
