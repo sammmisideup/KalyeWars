@@ -6,8 +6,7 @@ public class EnemyDamage : MonoBehaviour
 {
     public PlayerHealth playerHP;
     public float damage;
-    public float Knockback = 10;
-
+   
     
     // Start is called before the first frame update
     void Start()
@@ -21,19 +20,14 @@ public class EnemyDamage : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D target)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (target.gameObject.CompareTag("Player"))
         {
             playerHP.Health -= damage;
         }
 
-         if (collision.gameObject.GetComponent<EnemyHealth>())
-        {
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.right * Knockback, ForceMode2D.Impulse);
-            
-            collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(damage);
-        }
+         
     }
 
 

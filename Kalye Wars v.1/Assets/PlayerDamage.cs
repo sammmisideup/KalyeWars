@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerDamage : MonoBehaviour
 {
-    public EnemyHealth EnemyHP;
+    public EnemyHealth enemyHP;
     public float damage;
     
     // Start is called before the first frame update
@@ -23,7 +23,7 @@ public class PlayerDamage : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            EnemyHP.Health -= damage;
+            enemyHP.EHealth -= damage;
         }
     }
 
