@@ -9,12 +9,14 @@ public class PlayerHealth : MonoBehaviour
     public float maxHealth;
     public Image HB;
     public Animator animator;
+   // public EnemyAttack enemyAttack;
 
 
     // Start is called before the first frame update
     void Start()
     {
         maxHealth = Health;
+        //enemyAttack = gameObject.GetComponent<EnemyAttack>();
     }
 
     // Update is called once per frame
@@ -25,6 +27,7 @@ public class PlayerHealth : MonoBehaviour
         if (Health <= 0)
         {
             animator.SetBool("K.O", true);
+            //enemyAttack.enabled = false;
         }
     }
 }

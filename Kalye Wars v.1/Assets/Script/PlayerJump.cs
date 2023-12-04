@@ -11,6 +11,7 @@ public class PlayerJump : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
     bool isGrounded;
+    public GameObject shadow;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,11 +30,19 @@ public class PlayerJump : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             animator.SetBool("IsJumping", true);
+            shadow.SetActive(false);      
         }
+        
         if (Input.GetKey(KeyCode.S) && isGrounded)
         {
             animator.SetBool("IsDodge", true);
         }
+
+        if (Input.GetKeyDown(KeyCode.Keypad2) && isGrounded)
+        {
+            shadow.SetActive(true);
+        }
+        
         
     }
     

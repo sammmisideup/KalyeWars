@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public Rigidbody2D rb;
     Vector2 movement;
+    public GameObject shadow;
     // Start is called before the first frame update
     void Start()
     {

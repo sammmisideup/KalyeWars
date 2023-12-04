@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 78d380828c9581f4687e132d8bf9e200
+guid: 7db36c6c275507e4aa2c48f5de7fc3fd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6028158014762990934
-    second: LOW_KICK3_0
-  - first:
-      213: 6632479154243821520
-    second: LOW_KICK3_1
-  - first:
-      213: -3953196036838986966
-    second: LOW_KICK3_2
-  - first:
-      213: 1064925467487543271
-    second: LOW_KICK3_3
+      213: -4756028443593143600
+    second: shadow_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -131,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LOW_KICK3_0
+      name: shadow_0
       rect:
         serializedVersion: 2
-        x: 512
-        y: 79
-        width: 1691
-        height: 2460
+        x: 550
+        y: 82
+        width: 867
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,71 +136,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa2c020693ea75ca0800000000000000
-      internalID: -6028158014762990934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LOW_KICK3_1
-      rect:
-        serializedVersion: 2
-        x: 2196
-        y: 132
-        width: 42
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0dfd2e086ac4b0c50800000000000000
-      internalID: 6632479154243821520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LOW_KICK3_2
-      rect:
-        serializedVersion: 2
-        x: 2240
-        y: 119
-        width: 22
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2beab0462d6329c0800000000000000
-      internalID: -3953196036838986966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LOW_KICK3_3
-      rect:
-        serializedVersion: 2
-        x: 2202
-        y: 114
-        width: 40
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ef9cd9021067ce00800000000000000
-      internalID: 1064925467487543271
+      spriteID: 0da0afd34513ffdb0800000000000000
+      internalID: -4756028443593143600
       vertices: []
       indices: 
       edges: []
@@ -225,10 +153,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      LOW_KICK3_0: -6028158014762990934
-      LOW_KICK3_1: 6632479154243821520
-      LOW_KICK3_2: -3953196036838986966
-      LOW_KICK3_3: 1064925467487543271
+      shadow_0: -4756028443593143600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
