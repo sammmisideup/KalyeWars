@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [SerializeField] float DelayInSeconds = 2f;
     public float Health;
     public float maxHealth;
     public Image HB;
@@ -16,6 +18,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         maxHealth = Health;
+        Invoke("Update", 3);
         //enemyAttack = gameObject.GetComponent<EnemyAttack>();
     }
 
@@ -28,6 +31,19 @@ public class PlayerHealth : MonoBehaviour
         {
             animator.SetBool("K.O", true);
             //enemyAttack.enabled = false;
+            Die();
+       
+           
+        }
+    void Die()
+        {
+            StartCoroutine(WaitAndLoad());
+            
+        }
+    IEnumerator WaitAndLoad()
+        {
+            yield return new WaitForSeconds(DelayInSeconds);
+            SceneManager.LoadScene("Lost");
         }
     }
 }
